@@ -1,0 +1,547 @@
+    .userOderContainerView{
+        width: 100%;
+        height:82.5vh;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid rgb(17, 0, 255); */
+    }
+    .userOrderFormView{
+        position: fixed;
+        top: 160px;
+        left: 80px;
+        padding: 25px;
+        width: 40%;
+        height: 60vh;
+        /* background: (131deg,#ff9448,#ffe44a); */
+        background: linear-gradient(131deg,#ff9448,#ffe44a);
+        /* background-color: #f7bc43; */
+        border-radius: 8px;
+        /* background-color: #eeeee4; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* border: 3px solid rgb(244, 21, 166); */
+    }
+    
+    .userServicesView{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        height: 82vh;
+        background-color:	#dacfb5;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 6px;
+
+        /* border: 1px solid orangered; */
+    }
+    .userServicesSection{
+        width: 92%;
+        height: 60vh;
+        display: grid;
+        grid-template-columns: repeat(3,.4fr);
+        column-gap: 30px;
+        padding: 20px;
+        row-gap: 40px;
+        overflow: auto;
+        border-radius: 6px;
+        /* background-color:#444441; */
+        background-color:#21130d;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+       
+
+        /* border: 1px solid black; */
+    }
+    .userOrderTableView{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        height: 82vh;
+        background-color: #f2f2f2;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+        /* border: 3px solid rgb(21, 255, 0); */
+    }
+    .tableSection{
+        padding-top: 30px;
+        width: 100%;
+        height: 60vh;
+        overflow: auto;
+        /* background-color: #f2f2f2; */
+        border:1px solid #10d9ea
+    }
+    .totalPriceSection{
+        width: 100%;
+        height: 10vh;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:	#dacfb5;
+        /* border:3px solid brown */
+    }
+
+    .orderForm{
+        margin: auto;
+        padding-top:40px;
+        /* width:700px; */
+    }
+    .formHeading{
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid black; */
+        /* padding-left: 250px; */
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .openUserModal{
+        display: block;
+    
+        
+        
+    }
+    .closeUserModal{
+        display: none;
+    }
+    .userOrderTable{
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    .userOrderTable tr th{
+    
+        border: 1px solid #aaaaaa;
+        font-size: 23px;
+        text-align: center;	
+        background-color:	#dacfb5;
+        padding: 10px;
+    }
+    .userOrderTable tr td{
+        border: 1px solid #aaaaaa;
+        font-size: 20px;
+        text-align: center;
+        word-wrap: break-word;
+        max-width: 300px;
+
+    }
+    .userOrderFormView Form input,textarea{
+        width: 70% !important;
+        font-size: 20px !important;
+
+    }
+
+
+    .customerInfoForm{
+        padding: 30px;
+        position: fixed;
+        top: 200px;
+        left: 100px;
+        /* border: 2px solid red; */
+        width:40% ;
+        height: 65vh;
+        background-color: #eeeee4;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+    .customerInfoForm Form input,textarea{
+        width: 80%!important;
+        font-size: 20px;
+
+        
+    }
+
+    .customerInfoForm Form{
+        margin: auto;
+        padding: 40px;
+        height: 460px;
+        /* border: 1px solid black; */
+    
+    }
+    .customerInfoFormButtonContainer{
+        margin: auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid black; */
+    }
+    .closeCustomerInfoForm{
+        display: none;
+    }
+    .serviceCard{
+        /* width:310px; */
+        display: flex;
+        flex-direction: column;
+        /* width: 310px; */
+        border-radius: 10px;
+        background-color:#ffffff;
+        height: 150px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        /* border: 1px solid black; */
+    }
+    .serviceCardTitle{
+        padding: 20px;
+        /* width: 100%; */
+        display: flex;
+        align-items: center;
+        height: 70px;
+        /* border: 1px solid black; */
+    }
+    .serviceCardContent{
+        padding: 20px;
+        /* width: 100%; */
+        height: 80px;
+        display: flex;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .cardTitleLabel{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cardTitlePrice{
+        font-size: 18px;
+    }
+    .serviceFormContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 20vh;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        /* border: 1px solid black; */
+        position: fixed;
+        top: 200px;
+        left: 100px;
+        background-color: #eeeee4;
+
+    }
+    .closeServiceFormContainer{
+        display: none;
+    }
+
+    /* print page design css start is here */
+    .printPage{
+        width: 100%;
+        padding: 20px;
+        height: 99vh;
+        border: 1px solid black;
+    }
+    .printPageContainer{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        /* justify-content: space-around; */
+        width: 100%;
+        height: 95vh;
+        border:1px solid red
+    }
+    .companyContainer{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 23vh;
+        border :1px solid black;
+    }
+    .billCard{
+        width: 90%;
+        display: flex;
+        height:10vh;
+        border: 1px solid black
+    
+    }
+    .customerBillTable{
+        width: 90%;
+        height:30vh;
+        border:1px solid black;
+
+    }
+    .paymentDetailCard{
+        width: 90%;
+        height: 22vh;
+        border: 1px solid black;
+    }
+    .companyLogoText{
+        /* max-width: 200px; */
+        /* word-wrap: break-word; */
+        /* word-break: break-all;   */
+        font-size: 18px;
+    }
+    .companyNameCrad{
+        width: 40%;
+        border: 1px solid black;
+        height: 100px;
+    }
+    .qrCard{
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height:172px;
+        border:1px solid black;
+    }
+    .qrcodeComponent{
+        width: 270px;
+        border: 2px solid red;
+        height: 160px ; 
+    }
+    .comapnyDetailCard{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        height: 172px;
+        border: 1px solid black;
+    }
+    .invoiceText{
+
+        font-size: 18px;
+
+        border: 1px solid black;
+    }
+    .arabicCompanyDetailCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 100%;
+        height: 120px;
+        /* border:1px solid red */
+    }
+    .arabicTextLogo{
+        font-size: 20px;
+        /* border:1px solid black */
+    }
+    .companyAddressText{
+        font-size: 18px;
+        /* border: 1px solid black; */
+    }
+    .companyContactDetail{
+        border: 1px solid yellowgreen;
+    }
+    .phn1{
+        font-size: 18px;
+    }
+    .phn2{
+        font-size: 18px;
+    }
+    .InvoiceDetailCard{
+        display: flex;
+        width: 50%;
+        height: 95px;
+        border: 1px solid red
+    }
+    .englishInvoiceCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 35%;
+        height: 95px;
+        border:1px solid black;
+    }
+    .arabicTitleCard{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30%;
+            height: 95px;
+            border:1px solid black;
+    }
+    .englishInvoiceCardValue{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 35%;
+        height: 95px;
+        border:1px solid black;
+
+    }
+    .billDateText{
+        font-size: 16px;
+        height: 30px;
+        /* border:1px solid black */
+    }
+    .billInvoiceText{
+        font-size: 16px;
+        height: 30px;
+        /* border:1px solid black */
+    }
+    .paymentStatusText{
+        font-size: 16px;
+        height: 30px;
+        /* border:1px solid black */
+    }
+    .billDateTextValue{
+        font-size: 16px;
+        height: 30px;
+        /* border:1px solid black */
+    }
+    .billInvoiceTextValue{
+        font-size: 16px;
+        height: 30px;
+        /* border:1px solid black */
+    }
+    .paymentStatusTextValue{
+        font-size: 16px;
+        height: 30px;
+        /* border:1px solid black */
+    }
+    .billToText{
+            width: 22%;
+            font-size: 16px;
+            height: 30px;
+            border:1px solid black
+    }
+    .billToCard{
+        display: flex;
+        justify-content: space-between;
+        width:50%;
+        height:94px;
+        border: 1px solid black;
+
+    }
+    .billCustomerName{
+        text-align: end;
+        font-size: 14px;
+        /* word-wrap: break-word; */
+        word-break: break-all;
+        border:1px solid black;
+    }
+    .billCustomerAddress{
+        text-align: end;
+        word-break: break-all;
+        font-size: 12px;
+        border:1px solid black;
+    }
+    .billTable{
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .billTable tr th{
+        padding: 10px;
+        border-top:1px solid black;
+        border-bottom:1px solid black
+
+    }
+    .billTable tr td{
+        border: 1px solid black;
+        text-align: end;
+        padding: 10px;
+    }
+    .grandTotalCard{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        height: 50px;
+        border:1px solid red;
+    }
+    .grandTotalValue{
+        font-size: 16px;
+        width:30%;
+        height:50px ;
+        border:1px solid black;
+    }
+    .grandTotalTitle{
+        font-size: 16px;
+        width:40%;
+        height:50px ;
+        border:1px solid black;
+    }
+    .paidAmountCard{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        height: 50px;
+        border:1px solid red;
+    }
+    .paidAmountValue{
+        font-size: 16px;
+        width:30%;
+        height:50px ;
+        border:1px solid black;
+    }
+    .paidAmountTitle{
+        font-size: 16px;
+        width:40%;
+        height:50px ;
+        border:1px solid black;
+    }
+    .amountDueCard{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        height: 50px;
+        border:1px solid red;
+    }
+    .amountDueValue{
+        font-size: 16px;
+        width:30%;
+        height:50px ;
+        border:1px solid black;
+    }
+    .amountDueTitle{
+        font-size: 16px;
+        width:40%;
+        height:50px ;
+        border:1px solid black;
+    }
+
+    /* print page design css end is here */
+    @media(max-width:1768px){
+        .customerInfoForm{
+            left: 50px;
+        }
+    }
+    @media(max-width:1400px){
+         .customerInfoForm Form { 
+            padding: 30px;
+        } 
+        .customerInfoForm{
+            height: 60vh;
+        }
+        .customerInfoFormButtonContainer{
+            width: 90%;
+        }
+            
+        .customerInfoForm Form input,textarea{
+        width: 90%!important;
+        font-size: 18px;
+        height: 35px;
+
+        }
+    }
+    @media(max-width:1230px){
+        .customerInfoForm{
+            padding: 0;
+            height: 525px;
+        }
+    }
+    @media(max-height:900px){
+        
+           .customerInfoForm{
+            top: 155px;
+               height: 510px;
+           } 
+           .customerInfoForm Form input,textarea{
+            /* width: 90%!important; */
+            height: 30px;
+    
+            }
+            .customerInfoForm Form { 
+                padding: 10px;}
+           
+     
+   }
+
+
+   

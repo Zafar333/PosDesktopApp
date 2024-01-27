@@ -1,0 +1,55 @@
+.todaySalesContainer{
+    width: 100%;
+    height: 89.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid greenyellow;
+
+}
+.todaySalesTableView{
+    width: 90%;
+    height: 60vh;
+    padding: 40px;
+    background-color: #eeeee4;
+    overflow: auto;
+}
+.todaySalesTable{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.todaySalesTable tr th{
+    
+    border: 1px solid #aaaaaa;
+    font-size: 20px;
+    max-width: 300px !important;
+    word-wrap: break-word !important;
+    text-align: center;	
+    background-color:	#dacfb5;
+    padding: 10px;
+}
+.todaySalesTable tr td{
+    border: 1px solid #aaaaaa;
+    font-size: 18px;
+    text-align: center;
+    max-width: 300px !important;
+    word-wrap: break-word !important; 
+    padding: 5px;
+
+}
+.tableCell{
+    display:flex;
+    flex-direction: column;
+}
+.tableChildCell{
+    border: none;
+}
+.todaySalesTextLogo{
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+
+}
